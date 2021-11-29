@@ -3,7 +3,11 @@
 # attempt to load a library implementing the Bradley-Terry model for inferring rankings based on
 # comparisons; if it doesn't load, try to install it through R's in-language package management;
 # otherwise, abort and warn the user
-# https://www.jstatsoft.org/v48/i09/paper
+# https://www.jstatsoft.org/v48/i09/
+
+# Add the repo to the R search path
+options(repos = list(CRAN="http://cran.rstudio.com/"))
+
 loaded <- library(BradleyTerry2, quietly=TRUE, logical.return=TRUE)
 if (!loaded) { write("warning: R library 'BradleyTerry2' unavailable; attempting to install locally...", stderr())
               install.packages("BradleyTerry2")

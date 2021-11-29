@@ -11,6 +11,11 @@ git clone https://github.com/AndrewQuinn2020/resorter.git
 
 _Install this another way? Fork this repo and edit `README.md` to let me know how you did it._
 
+# Demo
+
+<script id="asciicast-452232" src="https://asciinema.org/a/452232.js" async></script>
+
+
 ## ... on Windows
 
 ### ... using [Scoop](https://scoop.sh)
@@ -23,13 +28,12 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 ```
 
 ```powershell
-# as admin ~> Win-X,A to open admin PowerShell session
+# need to run as admin ~> Win-X,A to open admin PowerShell session
 scoop install r
 cd resorter\
 rscript.exe resorter.r
 ```
 
-# Demo
 
 # Licensing
 
