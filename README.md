@@ -4,9 +4,32 @@ This repo simplifies installing and running Gwern's [Resorter](https://www.gwern
 
 # Quickstart
 
+```powershell
+cd $WhereverYouWant
+git clone https://github.com/AndrewQuinn2020/resorter.git
+```
+
+_Install this another way? Fork this repo and edit `README.md` to let me know how you did it._
+
+## ... on Windows
+
+### ... using [Scoop](https://scoop.sh)
+
+You can install Scoop in PowerShell easily using
+
+```powershell
+# as admin - Win-X,A,Alt-Y to open admin PoSH window
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+```
+
+```powershell
+# as admin ~> Win-X,A to open admin PowerShell session
+scoop install r
+cd resorter\
+rscript.exe resorter.r
+```
 
 # Demo
-
 
 # Licensing
 
