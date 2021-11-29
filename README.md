@@ -13,8 +13,7 @@ _Install this another way? Fork this repo and edit `README.md` to let me know ho
 
 # Demo
 
-<script id="asciicast-452232" src="https://asciinema.org/a/452232.js" async></script>
-
+[![asciicast](https://asciinema.org/a/452232.svg)](https://asciinema.org/a/452232)
 
 ## ... on Windows
 
