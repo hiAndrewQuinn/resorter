@@ -10,7 +10,7 @@ _On Windows, using [Scoop](https://scoop.sh)_
 ```powershell
 scoop install r
 
-git clone https://github.com/AndrewQuinn2020/resorter.git
+git clone "https://github.com/AndrewQuinn2020/resorter.git"
 cd resorter
 
 rscript.exe resorter.r --input anime_unranked.csv --output anime_ranked.csv
