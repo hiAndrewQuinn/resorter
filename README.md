@@ -19,7 +19,7 @@ rscript.exe resorter.r --input anime_unranked.csv --output anime_ranked.csv
 
 # Demo
 
-[![asciicast](https://asciinema.org/a/452232.svg)](https://asciinema.org/a/452232)
+![](resorter-demo.gif)
 
 
 # Explanation
