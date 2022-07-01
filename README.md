@@ -19,11 +19,6 @@ rscript.exe resorter.r --input anime_unranked.csv --output anime_ranked.csv
 _On Ubuntu, using [apt](https://ubuntu.com/server/docs/package-management)_
 
 ```bash
-# your punishment for using *nix is having to download the latest version
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
-sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
-sudo apt update
-
 sudo apt install r-base
 
 git clone "https://github.com/AndrewQuinn2020/resorter.git"
