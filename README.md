@@ -24,10 +24,13 @@ sudo apt install r-base
 git clone "https://github.com/AndrewQuinn2020/resorter.git"
 cd resorter
 
-Rscript resorter.r --input anime_unranked.csv --output anime_ranked.csv
+sudo Rscript resorter.r --input anime_unranked.csv --output anime_ranked.csv
 # ┌──────────────────────────┐
 # │ yes, capital R required~ │
 # └──────────────────────────┘
+#
+# sudo required too, so that `Rscript` can install the BradleyTerry2 package.
+# doing this in a venv is above my pay grade, sorry
 ```
 
 
