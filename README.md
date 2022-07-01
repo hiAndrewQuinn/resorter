@@ -19,7 +19,8 @@ rscript.exe resorter.r --input anime_unranked.csv --output anime_ranked.csv
 _On Ubuntu, using [apt](https://ubuntu.com/server/docs/package-management)_
 
 ```bash
-sudo apt install r-base
+sudo apt install r-base cmake
+# cmake needed as well to build the R packages
 
 git clone "https://github.com/AndrewQuinn2020/resorter.git"
 cd resorter
