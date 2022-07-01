@@ -24,8 +24,10 @@ sudo apt install r-base
 git clone "https://github.com/AndrewQuinn2020/resorter.git"
 cd resorter
 
-# yes, a capital R, specifically
-R resorter.r --input anime_unranked.csv --output anime_ranked.csv
+Rscript resorter.r --input anime_unranked.csv --output anime_ranked.csv
+# ┌──────────────────────────┐
+# │ yes, capital R required~ │
+# └──────────────────────────┘
 ```
 
 
