@@ -30,7 +30,8 @@ sudo Rscript resorter.r --input anime_unranked.csv --output anime_ranked.csv
 # │ yes, capital R required~ │
 # └──────────────────────────┘
 #
-# sudo required too, so that `Rscript` can install the BradleyTerry2 package.
+# sudo required too, on the first run at least,
+# so that `Rscript` can install the BradleyTerry2 package.
 # doing this in a venv is above my pay grade, sorry
 ```
 
