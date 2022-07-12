@@ -38,3 +38,9 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 *.cast
+
+# Ignore any csv data except the examples.
+*.csv
+!anime_ranked.csv
+!anime_unranked.csv
+
