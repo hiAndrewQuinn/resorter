@@ -1,22 +1,14 @@
 # resorter
 Simpler to install fork of https://www.gwern.net/Resorter#source-code
 
-# Installation
+1. [resorter](#resorter)
+2. [Usage](#usage)
+3. [Installation + Quickstart](#installation--quickstart)
+   1. [Debian / Ubuntu](#debian--ubuntu)
 
-## Debian / Ubuntu
-```bash
-git clone https://github.com/hiAndrewQuinn/resorter.git
-cd ./resorter
-
-sudo apt install r-base cmake
-
-# Capitalization matters.
-# sudo needed the first time to download + compile BradleyTerry package.
-# This will take a while the first time.
-Rscript resorter.r --output out.csv --input in.csv
-```
 
 # Usage
+
 ```bash
 $ Rscript resorter.r --output out.csv --input in.csv
 
@@ -31,4 +23,21 @@ Is 'Clyde' greater than 'Pinky'? 1
 
 Resorting complete
 # see out.csv for example results
+```
+
+# Installation + Quickstart
+
+_PR friendly! If you have instructions for your OS, consider submitting a PR._
+
+## Debian / Ubuntu
+```bash
+git clone https://github.com/hiAndrewQuinn/resorter.git
+cd ./resorter
+
+sudo apt install r-base cmake
+
+# Capitalization matters.
+# sudo needed the first time to download + compile BradleyTerry package.
+# This will take a while the first time.
+Rscript resorter.r --output out.csv --input in.csv
 ```
