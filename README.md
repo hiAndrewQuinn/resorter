@@ -1,5 +1,7 @@
 # resorter
-Simpler to install fork of https://www.gwern.net/Resorter#source-code
+Simpler to install fork of https://www.gwern.net/Resorter#source-code .
+
+For people who have never worked with R scripts before but want to try it out painlessly.
 
 1. [resorter](#resorter)
 2. [Usage](#usage)
