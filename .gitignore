@@ -40,3 +40,5 @@ vignettes/*.pdf
 
 # Specific to this project.
 data
+
+# Specific to this repo: Ignoring *.csv commits
