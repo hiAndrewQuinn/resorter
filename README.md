@@ -7,6 +7,7 @@ For people who have never worked with R scripts before but want to try it out pa
 2. [Usage](#usage)
 3. [Installation + Quickstart](#installation--quickstart)
    1. [Debian / Ubuntu](#debian--ubuntu)
+   2. [macOS](#macos)
 
 
 # Usage
