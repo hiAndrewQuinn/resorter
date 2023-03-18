@@ -8,7 +8,7 @@
 
 loaded <- library(BradleyTerry2, quietly=TRUE, logical.return=TRUE)
 if (!loaded) { write("warning: R library 'BradleyTerry2' unavailable; attempting to install locally...", stderr())
-              install.packages("BradleyTerry2")
+              install.packages("BradleyTerry2", repos = "http://lib.stat.cmu.edu/R/CRAN/")
               loadedAfterInstall <- library(BradleyTerry2, quietly=TRUE, logical.return=TRUE)
               if(!loadedAfterInstall) { write("error: 'BradleyTerry2' unavailable and cannot be installed. Aborting.", stderr()); quit() }
 }
@@ -16,7 +16,7 @@ if (!loaded) { write("warning: R library 'BradleyTerry2' unavailable; attempting
 # similarly, but for the library to parse command line arguments:
 loaded <- library(argparser, quietly=TRUE, logical.return=TRUE)
 if (!loaded) { write("warning: R library 'argparser' unavailable; attempting to install locally...", stderr())
-              install.packages("argparser")
+              install.packages("argparser", repos = "http://lib.stat.cmu.edu/R/CRAN/")
               loadedAfterInstall <- library(argparser, quietly=TRUE, logical.return=TRUE)
               if(!loadedAfterInstall) { write("error: 'argparser' unavailable and cannot be installed. Aborting.", stderr()); quit() }
 }
