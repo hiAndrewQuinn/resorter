@@ -54,6 +54,6 @@ brew install r
 
 ```bash
 # Capitalization matters.
-# This will take a while the first time.
+# This will take a while the first time. You may need `sudo` / admin privileges.
 Rscript resorter.r --output out.csv --input in.csv
 ```
