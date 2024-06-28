@@ -41,6 +41,12 @@ cd ./resorter
 sudo apt install r-base cmake
 ```
 
+Gwern further notes:
+
+> As with any user-installed language, you may run into compile errors while installing dependencies.
+> 
+> Look for a missing C library to install system-wide as root, or see if your package manager provides one of the dependencies already as a precompiled binary, so you can `apt-get install r-cran-bradleyterry2` or `apt-get install r-cran-lme4` to bypass any compile errors.
+
 ## macOS
 Install R with [Homebrew](https://brew.sh) if needed.
 ```bash
